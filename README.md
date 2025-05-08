@@ -9,13 +9,14 @@ Welcome to the project! This repository is well-structured and set up for smooth
 Follow these steps to set up the project on your local machine:
 
 1. **Clone the repository**
-
-   
+ 
    git clone https://github.com/kingsamito/flow.git
+   
    cd flow
 
 2. **Install dependencies**
-    npm install
+   
+   npm install
 
 
 3. **Start the development server**
