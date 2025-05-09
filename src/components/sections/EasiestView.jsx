@@ -48,11 +48,11 @@ const EasiestView = () => {
       {/* Easiest View section */}
       <div className="py-15 flex flex-col md:flex-row space-y-5 justify-between xl:px-20 ">
         {/* Text section */}
-        <div className="flex flex-row md:flex-col justify-between ">
-          <h1 className="text-xl md:text-4xl md:max-w-[290px] mx-auto leading-tight">
+        <div className="flex flex-row md:flex-col justify-between space-x-2 items-center md:items-start ">
+          <h1 className="text-xl md:text-4xl md:max-w-[290px]  leading-tight">
             The Easiest Way to Move Money
           </h1>
-          <Btn className="bg-primary rounded-sm py-3 w-35 text-gray-700 text-sm font-medium cursor-pointer">
+          <Btn className="bg-primary rounded-sm py-3 w-fit text-gray-700 text-sm font-medium cursor-pointer whitespace-nowrap">
             Speak to sales
           </Btn>
         </div>
@@ -65,7 +65,7 @@ const EasiestView = () => {
               <h1 className="mt-1 mb-2 text-md font-medium text-gray-900">
                 We Speak Software
               </h1>
-              <p className="max-w-[390px] text-sm text-gray-600 font-medium">
+              <p className="max-w-[350px] text-sm text-gray-600 font-medium">
                 Our B2B payment API seamlessly, offering a customizable,
                 white-labeled experience for your brand.
               </p>

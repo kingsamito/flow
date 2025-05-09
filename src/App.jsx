@@ -12,15 +12,15 @@ import Footer from './components/sections/Footer';
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Hero />
+      {/* <Navbar />
+      <Hero /> */}
       <EasiestView />
-      <UnlockGrowth />
+      {/* <UnlockGrowth />
       <PoweringGrowth />
-      <Testimonial />
+      <Testimonial /> */}
       <Support />
-      <ClickPay />
-      <Footer />
+      {/* <ClickPay />
+      <Footer /> */}
     </>
   );
 };
