@@ -34,7 +34,7 @@ const Navbar = () => {
           <div className="w-6">
             <img src={Logo} alt="logo" />
           </div>
-          <h1 className="font-bold text-[18px] md:text-[20px]">Flow</h1>
+          <h1 className="font-bold text-[18px] md:text-[20px] text-[#204e4d]">Flow</h1>
         </div>
         <div className="w-8 md:w-10">
           <img src={Menu} alt="menu" className="cursor-pointer" onClick={toggleMenu} />
@@ -65,8 +65,8 @@ const Navbar = () => {
             <p className="my-2 cursor-pointer hover:bg-[#77f7d3] hover:pl-5 hover:w-32 hover:rounded-lg">Pricing</p>
           </div>
           <div className="flex flex-col">
-            <Btn className="border-1 mt-8 font-medium text-[15px] border-gray-300">Sign In</Btn>
-            <Btn className="border-0 mt-2 text-[15px] font-medium bg-[#77f7d3]">Get Started</Btn>
+            <Btn className="border-1 mt-8 font-medium text-[15px] border-gray-300 cursor-pointer hover:bg-gray-100">Sign In</Btn>
+            <Btn className="border-0 mt-2 text-[15px] font-medium bg-[#77f7d3] cursor-pointer hover:bg-[#83e7cb]">Get Started</Btn>
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@ const Navbar = () => {
           <div className="w-6 ">
             <img src={Logo} alt="logo" />
           </div>
-          <h1 className="font-bold text-[20px]">Flow</h1>
+          <h1 className="font-bold text-[20px] text-[#204e4d]">Flow</h1>
         </div>
         <div>
           <div className="flex items-center gap-2">
@@ -100,8 +100,8 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex gap-2">
-          <Btn className="border-1 font-medium text-[15px] border-gray-300">Sign In</Btn>
-          <Btn className="border-0 text-[15px] font-medium bg-[#77f7d3]">Get Started</Btn>
+          <Btn className="border-1 font-medium text-[15px] border-gray-300 cursor-pointer">Sign In</Btn>
+          <Btn className="border-0 text-[15px] font-medium bg-[#77f7d3] cursor-pointer">Get Started</Btn>
         </div>
       </div>
     </div>
