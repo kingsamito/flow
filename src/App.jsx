@@ -19,8 +19,8 @@ const App = () => {
       <PoweringGrowth />
       <Testimonial /> */}
       <Support />
-      {/* <ClickPay />
-      <Footer /> */}
+      <ClickPay />
+      {/* <Footer /> */}
     </>
   );
 };
