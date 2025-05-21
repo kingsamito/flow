@@ -12,7 +12,7 @@ import React from 'react'
 
 const Btn = ({children, className, ...props}) => {
   return (
-    <button className={`px-6 py-2 rounded  ${className}`} {...props}>
+    <button className={`px-6 py-3 ${className}`} {...props}>
       {children}
     </button>
   )
